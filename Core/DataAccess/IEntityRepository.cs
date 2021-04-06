@@ -1,10 +1,10 @@
-﻿using Etities.Abstract;
+﻿using Core.Entitiess;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace DataAccess.Abstract
+namespace Core.DataAccess
 {
     //generic constraint
     public interface IEntityRepository<T> where T:class,IEntity,new()
